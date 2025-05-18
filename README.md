@@ -39,8 +39,8 @@ ASCIIfy is a sleek, interactive web application that transforms your text into b
 ## 📦 Install & Run Locally
 
 ```bash
-git clone https://github.com/yourusername/asciify.git
-cd asciify
+git clone https://github.com/hereisSwapnil/asciiFY.git
+cd asciiFY
 npm install
 npm run dev
 ```
@@ -49,7 +49,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-Check out ASCIIfy in action: [🔗 View Deployed Project](https://asciify.app)
+Check out ASCIIfy in action: [🔗 View Deployed Project](https://asciify.swapnilsingh.xyz/)
 
 ---
 

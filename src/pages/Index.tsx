@@ -10,7 +10,7 @@ const Index = () => {
   const [inputText, setInputText] = useState<string>('');
   const [asciiArt, setAsciiArt] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [theme, setTheme] = useState<Theme>('default');
+  const [theme, setTheme] = useState<Theme>('crt');
   const [selectedFont, setSelectedFont] = useState<string>('Standard');
   const [options, setOptions] = useState<AsciiOptions>({
     font: 'Standard',
@@ -78,7 +78,7 @@ const Index = () => {
 
   // Set initial theme
   useEffect(() => {
-    handleThemeChange('default');
+    handleThemeChange('crt');
   }, []);
 
   return (
